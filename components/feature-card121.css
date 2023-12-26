@@ -1,4 +1,4 @@
-.feature-card1-feature-card {
+.feature-card121-feature-card {
   width: auto;
   height: auto;
   display: flex;
@@ -14,57 +14,66 @@
   flex-direction: row;
   justify-content: center;
 }
-.feature-card1-feature-card:hover {
+.feature-card121-feature-card:hover {
   transform: scale(1.02);
 }
-.feature-card1-image {
+.feature-card121-image {
   width: var(--dl-size-size-large);
   height: var(--dl-size-size-large);
   align-self: center;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
 }
-.feature-card1-text {
+.feature-card121-text {
   text-align: center;
   font-family: "MCPEfont";
   margin-bottom: var(--dl-space-space-twounits);
 }
 
-.feature-card1-root-class-name11 {
+.feature-card121-root-class-name3 {
   display: none;
 }
-.feature-card1-root-class-name12 {
+.feature-card121-root-class-name4 {
   display: none;
 }
-.feature-card1-root-class-name13 {
+.feature-card121-root-class-name5 {
   display: none;
 }
-.feature-card1-root-class-name14 {
+.feature-card121-root-class-name6 {
   display: none;
 }
-.feature-card1-root-class-name15 {
+.feature-card121-root-class-name7 {
   display: none;
 }
-@media(max-width: 991px) {
-  .feature-card1-root-class-name11 {
-    display: none;
-  }
-  .feature-card1-root-class-name12 {
-    display: none;
-  }
-  .feature-card1-root-class-name13 {
-    display: none;
-  }
-  .feature-card1-root-class-name14 {
-    display: none;
-  }
-  .feature-card1-root-class-name15 {
-    display: none;
+.feature-card121-root-class-name11 {
+  display: none;
+}
+.feature-card121-root-class-name12 {
+  display: none;
+}
+.feature-card121-root-class-name13 {
+  display: none;
+}
+.feature-card121-root-class-name14 {
+  display: none;
+}
+.feature-card121-root-class-name15 {
+  display: none;
+}
+
+
+@media(max-width: 767px) {
+  .feature-card121-root-class-name2 {
+    align-self: center;
   }
 }
 @media(max-width: 479px) {
-  .feature-card1-feature-card {
+  .feature-card121-feature-card {
     width: auto;
     border-style: inset;
+    justify-content: center;
+  }
+  .feature-card121-root-class-name2 {
+    align-self: center;
   }
 }

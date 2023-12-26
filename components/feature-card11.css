@@ -50,6 +50,6 @@
 @media(max-width: 479px) {
   .feature-card11-feature-card {
     width: auto;
-    border-style: hidden;
+    border-style: inset;
   }
 }
