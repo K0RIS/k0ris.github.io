@@ -698,6 +698,9 @@
   align-items: flex-start;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.home-component11 {
+  text-decoration: none;
+}
 .home-banner {
   flex: 0 0 auto;
   width: 100%;
