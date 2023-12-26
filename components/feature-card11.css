@@ -1,0 +1,55 @@
+.feature-card11-feature-card {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: auto;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: flex-start;
+  border-color: #fa7c9d;
+  border-style: inset;
+  border-width: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fa7c9d;
+}
+.feature-card11-feature-card:hover {
+  transform: scale(1.02);
+}
+.feature-card11-image {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+  align-self: center;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
+.feature-card11-text {
+  color: #000000;
+  align-self: center;
+  text-align: center;
+  font-family: "MCPEfont";
+  margin-left: 10px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+
+@media(max-width: 1200px) {
+  .feature-card11-feature-card {
+    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.1);
+  }
+  .feature-card11-text {
+    color: #000000;
+    align-self: center;
+    padding-left: 5px;
+  }
+  .feature-card11-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card11-feature-card {
+    width: auto;
+    border-style: hidden;
+  }
+}

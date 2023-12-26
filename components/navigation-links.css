@@ -30,6 +30,15 @@
   text-transform: lowercase;
   text-decoration: none;
 }
+.navigation-links-link3 {
+  color: #ffffff;
+  width: 200px;
+  font-size: 40px;
+  font-family: "Oxygen";
+  margin-left: var(--dl-space-space-twounits);
+  text-transform: lowercase;
+  text-decoration: none;
+}
 
 
 
@@ -39,6 +48,11 @@
 
 
 
+@media(max-width: 1200px) {
+  .navigation-links-link2 {
+    color: #ffffff;
+  }
+}
 @media(max-width: 991px) {
   .navigation-links-root-class-name15 {
     align-self: center;
@@ -61,6 +75,12 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-link2 {
+    align-self: center;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-link3 {
     align-self: center;
     text-align: center;
     margin-left: 0;
