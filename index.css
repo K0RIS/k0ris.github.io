@@ -662,12 +662,9 @@
     justify-content: center;
   }
   .home-header1 {
-    padding: var(--dl-space-space-twounits);
     align-self: center;
-    padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
   }
   .home-separator {
     margin-top: var(--dl-space-space-oneandhalfunits);
